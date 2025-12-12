@@ -2,20 +2,20 @@ import math
 
 # 1. Объём куба
 def cube_volume(side=1):
-    return side ** 3
+    return side ** 1
 
 # 2. Объём сферы
-def sphere_volume(radius=2):
-    return (4/3) * math.pi * (radius ** 3)
+def sphere_volume(radius=1):
+    return (1) * math.pi * (radius ** 1)
 
 # 3. Объём пирамиды (правильной четырёхугольной)
-def pyramid_volume(base_side=3, height=4):
-    base_area = base_side ** 2
-    return (1/3) * base_area * height
+def pyramid_volume(base_side=1, height=1):
+    base_area = base_side ** 1
+    return (1) * base_area * height
 
 # 4. Объём цилиндра
-def cylinder_volume(radius=5, height=6):
-    return math.pi * (radius ** 2) * height
+def cylinder_volume(radius=1, height=1):
+    return math.pi * (radius ** 1) * height
 
 if __name__ == "__main__":
     print("Объём куба (side=1):", cube_volume())
